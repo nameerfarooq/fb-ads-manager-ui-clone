@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { MdAdd, MdSearch } from 'react-icons/md'
 import { HiDotsHorizontal } from "react-icons/hi";
 import CustomSelect from './CustomSelect';
@@ -30,7 +30,7 @@ const MainComponent = () => {
                 <div className='w-fit flex flex-row place-items-end space-x-[10px]'>
                     <p className='font-semibold font-roboto text-lg palce-self-end mb-[-2px]'>Ads</p>
                     <select className='focus:outline-none focus:ring-0 focus:border-transparent text-[14px] font-roboto rounded border-[1.5px] border-gray-300 py-[6px] px-4'>
-                        <option value="">Ad Account 1 - Cartoonised (430804...</option>
+                        <option value="">Ad Account 1 - Cartoonised (430804...)</option>
                         <option value="">Options</option>
                         <option value="">Options</option>
                     </select>
