@@ -1,0 +1,8 @@
+<svg width="460" height="440" viewBox="0 0 460 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M367.842 150.971H308.771" stroke="gray" stroke-width="25" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M367.842 229.871H210.249" stroke="gray" stroke-width="25" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M367.842 308.771H210.249" stroke="gray" stroke-width="25" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M72.0716 426.914H387.671C395.428 426.914 403.109 425.386 410.276 422.417C417.443 419.449 423.955 415.098 429.441 409.612C440.519 398.534 446.742 383.509 446.742 367.842V13H395.106H341.611H289.149H236.48H184.018H131.35V367.842C131.295 383.528 125.026 398.553 113.915 409.625C102.804 420.697 87.7574 426.914 72.0716 426.914Z" stroke="gray" stroke-width="25" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M91.8997 170.593H13V367.842C13.8918 382.932 20.5147 400.435 31.5142 410.804C42.5137 421.172 57.0587 426.947 72.1748 426.947C87.2909 426.947 101.836 417.848 112.835 407.48C123.835 397.111 130.458 382.932 131.35 367.842V170.593H91.8997Z" stroke="gray" stroke-width="25" stroke-miterlimit="10"/>
+<circle cx="43.3742" cy="43.3742" r="43.3742" transform="matrix(-1 0 0 1 378.583 40.2639)" fill="gray"/>
+</svg>
