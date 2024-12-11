@@ -6,15 +6,15 @@ const CustomSelect = ({ text, icon, options }) => {
 
     return (
         <main onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex flex-row justify-between items-center bg-white text-gray-700 relative'>
-            <div className='border border-gray-400 rounded-l w-fit flex flex-row items-center justify-center text-gray-700 font-poppins text-base py-[6px] px-3'>
+            <div className='border border-zinc-400/70 rounded-l w-fit flex flex-row items-center justify-center text-gray-700 font-poppins text-base py-[6px] px-3'>
                 {icon} {text}
             </div>
-            <div className='border border-l-0 border-slate-400 rounded-r  p-[6.5px]'>
-                <MdArrowDownward className='size-[20px] text-gray-700' />
+            <div className='border border-l-0 border-zinc-400/70 rounded-r px-[12px] py-[8px]'>
+                <MdArrowDownward className='h-[16px] w-[16px]' />
             </div>
-            {isOpen && <div className='bg-white h-auto w-auto absolute border border-gray-400 top-10 right-0'>
+            {isOpen && <div className='bg-white h-auto w-auto absolute border border-zinc-400/70 top-10 right-0'>
                 {options && options.map((option, index) => (
-                    <div className='px-3 py-2 hover:bg-gray-200 cursor-pointer' key={index}>
+                    <div className='px-[12px] py-[8px] hover:bg-gray-200 cursor-pointer' key={index}>
                         {option}
                     </div>
                 ))}

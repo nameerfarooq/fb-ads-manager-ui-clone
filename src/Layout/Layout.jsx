@@ -1,18 +1,19 @@
-import Leftbar from '../Components/Leftbar.jsx'
-import Rightbar from '../Components/Rightbar.jsx'
-import MainComponent from '../Components/MainComponent.jsx'
+import React from 'react'
+import Leftbar from '../Components/leftbar'
+import Rightbar from '../Components/Rightbar'
+import MainComponent from '../Components/MainComponent'
 
 const Layout = () => {
     return (
         <main className="">
             <div className="flex flex-row w-full h-screen">
-                <div className="w-[3.5%]">
+                <div className="w-auto">
                     <Leftbar />
                 </div>
-                <div className="w-[93.5%]">
+                <div className="w-full">
                     <MainComponent />
                 </div>
-                <div className="w-[3%]">
+                <div className="w-auto">
                     <Rightbar />
                 </div>
             </div>
