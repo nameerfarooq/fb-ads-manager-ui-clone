@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/logo.png'
 import { MdOutlineQuestionMark } from "react-icons/md";
 import svg1 from '../assets/1.svg'
@@ -10,7 +9,6 @@ import svg6 from '../assets/6.svg'
 import svg7 from '../assets/7.svg'
 import svg8 from '../assets/8.svg'
 import svg9 from '../assets/9.svg'
-import svg10 from '../assets/10.svg'
 import svg11 from '../assets/11.svg'
 import svg12 from '../assets/12.svg'
 import svg13 from '../assets/13.svg'

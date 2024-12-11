@@ -1,7 +1,6 @@
-import React from 'react'
-import Leftbar from '../Components/leftbar'
-import Rightbar from '../Components/Rightbar'
-import MainComponent from '../Components/MainComponent'
+import Leftbar from '../Components/Leftbar.jsx'
+import Rightbar from '../Components/Rightbar.jsx'
+import MainComponent from '../Components/MainComponent.jsx'
 
 const Layout = () => {
     return (
